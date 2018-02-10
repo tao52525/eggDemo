@@ -1,0 +1,24 @@
+2018-02-05 09:53:31,661 INFO 7808 [egg:logger] init all loggers with options: {"dir":"E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-02-05 09:53:31,754 INFO 7808 [egg-schedule]: register schedule E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-02-05 09:53:31,754 INFO 7808 [egg-schedule]: register schedule E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-02-05 09:53:32,021 INFO 7808 [egg-static] starting static serve /public/ -> E:\jtStdio\eggT\demo1\egg-example\app\public
+2018-02-05 09:53:32,029 INFO 7808 [egg-security] use csrf middleware
+2018-02-05 09:53:32,033 INFO 7808 [egg-security] use methodnoallow middleware
+2018-02-05 09:53:32,035 INFO 7808 [egg-security] use noopen middleware
+2018-02-05 09:53:32,038 INFO 7808 [egg-security] use nosniff middleware
+2018-02-05 09:53:32,040 INFO 7808 [egg-security] use xssProtection middleware
+2018-02-05 09:53:32,042 INFO 7808 [egg-security] use xframe middleware
+2018-02-05 09:53:32,044 INFO 7808 [egg-security] use dta middleware
+2018-02-05 09:53:32,044 INFO 7808 [egg-security] compose 7 middlewares into one security middleware
+2018-02-05 09:53:32,083 INFO 7808 [egg-watcher:app] watcher start success
+2018-02-05 13:37:30,522 WARN 7808 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-02-05 13:37:30,725 WARN 7808 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-02-05 21:12:20,506 WARN 7808 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-02-05 21:12:20,533 WARN 7808 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-02-06 00:00:02,104 INFO 7808 [egg-schedule]: get message: {"key":"E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\app\\schedule\\clean_log.js"}
+2018-02-06 00:00:02,108 INFO 7808 [egg-logrotator] clean all log before 31 days
+2018-02-06 00:00:02,108 INFO 7808 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js excute succeed, used 3ms
+2018-02-06 00:00:03,098 INFO 7808 [egg-schedule]: get message: {"key":"E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\app\\schedule\\rotate_by_file.js"}
+2018-02-06 00:00:03,121 INFO 7808 [egg-logrotator] broadcast log-reload
+2018-02-06 00:00:03,123 INFO 7808 [egg-logrotator] rotate files success by DayRotator, files ["E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\common-error.log -> E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\common-error.log.2018-02-05","E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\example-web.log -> E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\example-web.log.2018-02-05","E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\egg-web.log -> E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\egg-web.log.2018-02-05","E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\egg-agent.log -> E:\\jtStdio\\eggT\\demo1\\egg-example\\logs\\example\\egg-agent.log.2018-02-05"]
+2018-02-06 00:00:03,123 INFO 7808 [-/127.0.0.1/-/25ms SCHEDULE /__schedule?path=E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js excute succeed, used 25ms

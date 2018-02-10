@@ -1,0 +1,279 @@
+{
+  "keys": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js",
+  "middleware": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js",
+  "errorHandle": {
+    "match": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+      "useSession": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+      "port": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+      "user": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+      "password": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+      "database": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js"
+    },
+    "app": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+    "agent": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
+    "default": {
+      "database": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport-github": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  }
+}

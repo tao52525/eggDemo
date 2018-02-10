@@ -1,0 +1,18 @@
+2018-02-05 13:37:30,517 ERROR 11048 nodejs.ClusterClientNoResponseError: client no response in 3437584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\jtStdio\eggT\demo1\egg-example\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11048
+hostname: SF0001367391A
+
+2018-02-05 21:12:20,504 ERROR 11048 nodejs.ClusterClientNoResponseError: client no response in 67894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\jtStdio\eggT\demo1\egg-example\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11048
+hostname: SF0001367391A
+

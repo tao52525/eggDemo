@@ -1,0 +1,28 @@
+2018-02-09 18:25:50,814 WARN 12420 [-/::1/-/2ms POST /api/user/query] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\jtStdio\eggT\demo1\egg-example\node_modules\koa\lib\context.js:92:11)
+    at Object.validate (E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.queryUser (E:\jtStdio\eggT\demo1\egg-example\app\controller\user.js:11:9)
+    at Object.callFn (E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (E:\jtStdio\eggT\demo1\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\jtStdio\eggT\demo1\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\jtStdio\eggT\demo1\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\jtStdio\eggT\demo1\egg-example\node_modules\koa-router\lib\router.js:346:16
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should be a string', code: 'invalid', field: 'jobcard' } ]
+pid: 12420
+hostname: SF0001367391A
+
+2018-02-09 20:51:22,577 WARN 12912 [-/::1/-/1ms POST /api/user/addUser] nodejs.SyntaxError: Unexpected string in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (E:\jtStdio\eggT\demo1\egg-example\node_modules\co-body\lib\json.js:62:17)
+    at E:\jtStdio\eggT\demo1\egg-example\node_modules\co-body\lib\json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+status: 400
+body: '{\n\t"jobcard": "0136739",\n\t"username": "jt",\n\t"password": "7391",\n\t"role": "1"\n\t"sex": "0"\n}'
+pid: 12912
+hostname: SF0001367391A
+
