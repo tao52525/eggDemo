@@ -94,6 +94,7 @@
         "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-mysql\\config\\locales",
         "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-validate\\config\\locales",
         "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-passport\\config\\locales",
+        "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis\\config\\locales",
         "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\locales",
         "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\locales"
       ],
@@ -167,6 +168,25 @@
         "database": "fswysit"
       }
     },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "clients": {
+        "foo": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 4>",
+          "db": 0
+        },
+        "bar": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 4>",
+          "db": 1
+        }
+      }
+    },
     "env": "local",
     "name": "example",
     "keys": "<String len: 6>",
@@ -184,6 +204,7 @@
         "egg-mysql": "^3.0.0",
         "egg-passport": "^2.0.1",
         "egg-passport-github": "^1.0.0",
+        "egg-redis": "^1.0.2",
         "egg-scripts": "^2.5.0",
         "egg-validate": "^1.0.0"
       },
@@ -541,6 +562,17 @@
       "from": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\plugin.js",
       "path": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-passport",
       "version": "2.0.1"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\plugin.js",
+      "path": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis",
+      "version": "1.0.2"
     }
   }
 }

@@ -136,6 +136,17 @@
         "database": "fswysit"
       }
     },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "client": {
+        "port": 6379,
+        "host": "127.0.0.1",
+        "password": null,
+        "db": 0
+      }
+    },
     "env": "local",
     "name": "example",
     "keys": "<String len: 6>",
@@ -153,6 +164,7 @@
         "egg-mysql": "^3.0.0",
         "egg-passport": "^2.0.1",
         "egg-passport-github": "^1.0.0",
+        "egg-redis": "^1.0.2",
         "egg-scripts": "^2.5.0",
         "egg-validate": "^1.0.0"
       },
@@ -485,6 +497,17 @@
       "from": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\plugin.js",
       "path": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-passport",
       "version": "2.0.1"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\plugin.js",
+      "path": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis",
+      "version": "1.0.2"
     }
   }
 }

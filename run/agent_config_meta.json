@@ -4,6 +4,17 @@
   "errorHandle": {
     "match": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js"
   },
+  "redis": {
+    "client": {
+      "port": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js",
+      "host": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js",
+      "password": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js",
+      "db": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.default.js"
+    },
+    "default": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis\\config\\config.default.js",
+    "app": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis\\config\\config.default.js",
+    "agent": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg-redis\\config\\config.default.js"
+  },
   "security": {
     "csrf": {
       "enable": "E:\\jtStdio\\eggT\\demo1\\egg-example\\config\\config.local.js",
@@ -153,6 +164,7 @@
       "egg-mysql": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-passport": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-passport-github": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-redis": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "E:\\jtStdio\\eggT\\demo1\\egg-example\\node_modules\\egg\\config\\config.default.js"
     },

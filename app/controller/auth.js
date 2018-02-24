@@ -38,7 +38,7 @@ class AuthController extends Controller {
   }
 
   async login() {
-    const { ctx, service } = this;
+    const { ctx, service, app } = this;
     let req = ctx.request.body;
     const createRule = {
       jobcard: {type: 'string', required: true},
@@ -52,6 +52,13 @@ class AuthController extends Controller {
         jobcard: result.jobcard,
         username: result.username,
       }
+      await app.redis.get('foo').set('userInfo', JSON.stringify({
+        id: result.id,
+        jobcard: result.jobcard,
+        username: result.username,
+      }))
+      let userInfo = await app.redis.get('foo').get('userInfo')
+      console.log('===redis--get===', userInfo)
       ctx.body = {
         code: 0,
         msg: 'OK',
@@ -67,13 +74,16 @@ class AuthController extends Controller {
   }
 
   async logout() {
-    const { ctx } = this;
+    const { ctx, app } = this;
     ctx.session.userInfo = null;
     ctx.body = {
       code: 0,
       msg: 'OK',
       status: true,
     }
+    let userInfo = await app.redis.get('userInfo')
+    console.log('===redis--gget===', userInfo, JSON.parse(userInfo).id)
+    await app.redis.set('userInfo', null)
   }
 };
 

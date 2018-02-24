@@ -20,3 +20,9 @@ exports.passport = {
   enable: true,
   package: 'egg-passport'
 }
+
+// redis
+exports.redis = {
+  enable: true,
+  package: 'egg-redis',
+}
